@@ -1,2 +1,2 @@
-# Reto-pag-web1
-este es un repositorio para mi primer reto de pagina web
+hamid escobar este es un proyecto para crear una web
+
