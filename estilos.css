@@ -1,0 +1,189 @@
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+body{
+    background-color: #f5f5f5;
+    font-family: 'Heebo', sans-serif;
+    font-size: 1.5rem;
+    line-height: 2;
+    width: 100%;
+    margin: 0; 
+    padding: 0;
+}
+/* Globales */
+.contenedor{
+    max-width: 120rem;
+    width: 90%;
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+}
+
+/* HEADER */
+
+header {
+    background-color: white;
+    color: white;
+    padding: 2rem; /* Ajusta el espaciado interno según tus preferencias */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Añade una sombra al div */
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Alinea los elementos verticalmente en el centro */
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Alinea los elementos de la lista en una fila */
+}
+
+li {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    margin-right: 15px; /* Ajusta el espaciado entre los elementos de la lista según tus preferencias */
+}
+
+ul li a {
+    text-decoration: none;
+    color: blue;
+    display: flex; /* Para centrar verticalmente los íconos */
+    align-items: center; /* Alinea los elementos verticalmente en el centro */
+}
+
+.social-icons {
+    margin: 0;
+}
+
+.social-icons i {
+    margin: 0; /* Elimina el margen por defecto de Font Awesome */
+}
+
+.social-icons a {
+    display: flex; /* Centra el ícono y el texto dentro del enlace */
+    align-items: center; /* Alinea los elementos verticalmente en el centro */
+    color: black;
+    font-size: 3rem;
+}
+
+.fab fa-github {
+    justify-content: center;
+}
+
+.fondo {
+    background-image: url(../Img/principal.png); 
+    height: 30rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; /* Centrar la imagen vertical y horizontal */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; /* Coloca la clase .All en la parte inferior del contenedor */
+    align-items: center;
+}
+
+.all {
+    background-color: rgb(64, 174, 64);
+    color: white;
+    max-width: 90rem;
+    height: 5.5rem;
+    width: 100%;
+    border-radius: 0.5rem;
+    margin-bottom: 20px; /* Ajusta el margen inferior según tus preferencias */
+    padding-left: 2rem;
+    padding-top: 1rem;
+    font-size: 2rem;
+}
+.contenedor {
+    display: flex;
+    justify-content: center;
+}
+
+.contenido-principal {
+    width: 100%;
+    max-width: 120rem;
+}
+
+.grid-container {
+    width: 100%;
+}
+
+.caja {
+    width: 78%; 
+    max-width: 120rem;
+    padding: 2rem;
+    border-radius: 1rem;
+    margin: 0;
+}
+
+.grid {
+    background-color: #ffffff;
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.2);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.entrada {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    height: 9rem;
+}
+
+
+h4 {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    color: rgb(55, 139, 139);
+}
+
+.fa-light {
+    background-color: rgb(64, 174, 64);
+    color: white;
+    padding: 0.5rem; 
+    border-radius: 50%;
+    height: 2.3rem;
+}
+
+.fa-sharp.fa-light.fa-question {
+    border: 1px solid #dcdcdc; /* Borde sólido gris (#808080 es un tono de gris) */
+    background-color: white;
+    color: #808080;
+    padding: 0.8rem; /* Ajusta el relleno según tus preferencias */
+    font-size: 0.9rem;
+}
+
+.history{
+    text-align: right;
+    padding-bottom: 10rem;
+    padding-right: 2rem;
+    font-weight: bold;
+}
+
+.redes {
+    color: rgb(163, 163, 163);
+    font-size: 2.2rem;
+    padding: 0.5rem; 
+}
+.redes i {
+    margin-right: 1.5rem;
+}
+
+
+
