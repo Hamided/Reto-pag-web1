@@ -16,7 +16,7 @@ body{
     padding: 0;
 }
 /* Globales */
-.contenedor{
+.container{
     max-width: 120rem;
     width: 90%;
     margin: 0 auto;
@@ -53,7 +53,7 @@ li {
 }
 
 ul li {
-    margin-right: 15px; /* Ajusta el espaciado entre los elementos de la lista según tus preferencias */
+    margin-right: 30px; /* Ajusta el espaciado entre los elementos de la lista según tus preferencias */
 }
 
 ul li a {
@@ -82,8 +82,8 @@ ul li a {
     justify-content: center;
 }
 
-.fondo {
-    background-image: url(../Img/principal.png); 
+.bottom {
+    background-image: url(https://user-images.githubusercontent.com/19292210/60553863-044dd200-9cea-11e9-987e-7db84449f215.png); 
     height: 30rem;
     background-size: cover;
     background-repeat: no-repeat;
@@ -106,12 +106,12 @@ ul li a {
     padding-top: 1rem;
     font-size: 2rem;
 }
-.contenedor {
+.container {
     display: flex;
     justify-content: center;
 }
 
-.contenido-principal {
+.content-main {
     width: 100%;
     max-width: 120rem;
 }
@@ -120,7 +120,7 @@ ul li a {
     width: 100%;
 }
 
-.caja {
+.box {
     width: 78%; 
     max-width: 120rem;
     padding: 2rem;
@@ -135,7 +135,7 @@ ul li a {
     grid-template-columns: repeat(2, 1fr);
 }
 
-.entrada {
+.entrance {
     border: 1px solid #ccc;
     padding: 1rem;
     height: 9rem;
